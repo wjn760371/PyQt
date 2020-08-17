@@ -3,15 +3,16 @@
 # 设置控件提示消息
 import sys
 from PyQt5.QtWidgets import QHBoxLayout, QMainWindow, QApplication, QToolTip, QPushButton, QWidget
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QFont, QIcon
 
 class TooltipForm(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.setWindowIcon(QIcon('image.ico'))
         self.initUI()
 
     def initUI(self):
-        QToolTip.setFont(QFont('SansSerif', 12))
+        QToolTip.setFont(QFont('SansSerif', 10))
         self.setToolTip('今天是<b>星期五<b>')
         self.setGeometry(300,300,200,300)
         self.setWindowTitle('设置控件提示消息')
