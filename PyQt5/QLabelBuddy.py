@@ -9,6 +9,7 @@ mainLayout.addWidget(控件对象, rowIndex, columnIndex， row， column)
 '''
 
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QIcon
 import sys
 
 class QLabelBuddy(QDialog):
@@ -18,7 +19,7 @@ class QLabelBuddy(QDialog):
 
     def initUI(self):
         self.setWindowTitle('设置伙伴控制')
-
+        self.setWindowIcon(QIcon('image.ico'))
         nameLabel = QLabel('&Name', self)
         nameLineEdit = QLineEdit(self)
 
