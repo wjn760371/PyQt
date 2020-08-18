@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a915be5d-2c4b-4e4d-aa78-97d9935448d9" name="Default Changelist" comment="">
+    <list default="true" id="a915be5d-2c4b-4e4d-aa78-97d9935448d9" name="Default Changelist" comment="QLineEdit控件与回显模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt5/QLabelBuddy.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QLabelBuddy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt5/QLabelBuddy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="293">
+              <caret line="47" selection-start-line="47" selection-end-line="53" selection-end-column="25" />
               <folding>
                 <element signature="e#68#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-440">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#197#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,6 +141,8 @@
         <option value="$PROJECT_DIR$/PyQt5/Tooltip.py" />
         <option value="$PROJECT_DIR$/PyQt5/QLabelDemo.py" />
         <option value="$PROJECT_DIR$/PyQt5/QLabelBuddy.py" />
+        <option value="$PROJECT_DIR$/PyQt5/QLineEditEchoDemo.py" />
+        <option value="$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py" />
       </list>
     </option>
   </component>
@@ -187,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QLabelBuddy">
+  <component name="RunManager" selected="Python.QLineEditEchoMode">
     <configuration name="QLabelBuddy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +244,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="QLineEditEchoMode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tooltip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,27 +278,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/Tooltip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="firstMainWin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyQt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt5/firstMainWin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.QLineEditEchoMode" />
         <item itemvalue="Python.QLabelBuddy" />
         <item itemvalue="Python.QLabelDemo" />
         <item itemvalue="Python.Tooltip" />
         <item itemvalue="Python.iconForm" />
-        <item itemvalue="Python.firstMainWin" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597718333788</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="QLabel伙伴控制">
+      <created>1597718992652</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597718992652</updated>
+    </task>
+    <task id="LOCAL-00011" summary="QLineEdit控件与回显模式">
+      <created>1597756293655</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597756293655</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -391,7 +419,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15331928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,7 +472,8 @@
     <MESSAGE value="设置窗口和应用程序图标" />
     <MESSAGE value="QLabel控件的基本用法" />
     <MESSAGE value="QLabel伙伴控制" />
-    <option name="LAST_COMMIT_MESSAGE" value="QLabel伙伴控制" />
+    <MESSAGE value="QLineEdit控件与回显模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="QLineEdit控件与回显模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PyQt5/firstMainWin.py">
@@ -512,12 +540,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/QLineEditEchoDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#197#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt5/QLabelBuddy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="293">
+          <caret line="47" selection-start-line="47" selection-end-line="53" selection-end-column="25" />
           <folding>
             <element signature="e#68#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2036615904/PyQt5/QtWidgets/QLineEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8878">
+          <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2036615904/PyQt5/QtWidgets/QApplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2036615904/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21281">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt5/QLineEditEchoMode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#197#226#0" expanded="true" />
           </folding>
         </state>
       </provider>
