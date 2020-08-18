@@ -13,7 +13,7 @@ setText(): 设置文本内容
 
 selectedText(): 返回所选择的字符
 
-setWordWrap(): 设置师傅允许换行
+setWordWrap(): 设置是否允许换行
 
 QLabel常用的信号（事件）：
 1、当鼠标滑过QLabel控件时触发：linkHovered
